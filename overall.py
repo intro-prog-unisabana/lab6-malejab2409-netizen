@@ -5,7 +5,7 @@ def  student_averages(my_dict):
         nota = round(sum(grades)/len(grades))
         resultado[student_id] = nota
     return resultado
-def assigment_averages(my_dict):
+def assignment_averages(my_dict):
     sums = {}
     cuentas = {}
     for student_id, notas_dict in my_dict.items():
