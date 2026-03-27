@@ -18,7 +18,7 @@ def assignment_averages(my_dict):
                 cuentas[tarea]+= 1
     final_averages = {}
     for tarea in sums:
-        prom = round(sums)
+        prom = round(sums[tarea] / cuentas[tarea])
         final_averages[tarea] = prom
     return final_averages
 if __name__ == "__main__":
